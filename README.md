@@ -18,6 +18,6 @@ Technologies used in this project:
 
 # Demo
 
-Check Demo here: (...).
+Check Demo here: (https://lionek95.github.io/MediaWiki-Project/).
 
 Inspired by @scientiffic.
