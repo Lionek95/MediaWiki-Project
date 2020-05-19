@@ -6,7 +6,7 @@ form.addEventListener('submit', handleSubmit);
 
 function handleSubmit(event) {
   event.preventDefault();
-  const input = document.querySelector('.search-input').value;
+  const input = document.querySelector('.searchInput').value;
   const searchQuery = input.trim();
   fetchResults(searchQuery);
 }
