@@ -1,0 +1,70 @@
+html, body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header, main {
+    height: 100%;
+}
+
+header { 
+    margin: 2%;
+    padding: 2%;
+    position: relative; 
+    background: transparent;
+    overflow: hidden;
+    text-align: center; 
+}
+
+h1 { display: none; }
+
+.searchTerm {
+    margin: 2%;
+    padding: 2%;
+    position: relative; 
+    background: transparent;
+    overflow: hidden;
+    text-align: center;
+}
+
+.resultItem {
+    margin: 2%;
+    padding: 0%;
+}
+
+.resultItem a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    position: relative;
+    text-align: center;
+}
+
+footer {
+    padding: 2%;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    header { position: relative; }
+    .searchTerm { display: block; }
+    .searchResults, footer { max-width: 100%; text-align: center; }
+}
+
+@media only screen and (max-width: 768px) {
+    header { position: relative; }
+    .searchTerm { display: block; }
+    .searchResults, footer { max-width: 100%; text-align: center; }
+}
+
+@media only screen and (max-width: 576px) {
+    header { position: relative; }
+    .searchTerm { display: block; }
+    .searchResults { max-width: 100%; } 
+    footer { max-width: 100%; text-align: center; } 
+}
